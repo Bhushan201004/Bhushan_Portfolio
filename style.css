@@ -1,0 +1,643 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(32, 32, 32);
+}
+
+
+header {
+    padding: 20px;
+    background-color: rgb(28, 28, 28);
+    position: sticky;
+    /* overflow: hidden; */
+    top: 0;
+}
+
+.menu {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.logo h2 {
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: cyan;
+    transition: 0.9s;
+}
+
+#downloadBtn {
+    background-color: cyan;
+    color: #000;
+    padding: 5px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.info {
+    color: #fff;
+
+}
+
+#homepage {
+    padding: 60px;
+}
+
+section .homepage {
+    height: auto;
+}
+
+#homepage img {
+    height: 300px;
+}
+
+#homepage .info {
+    align-self: center;
+    font-size: 30px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.info h3 {
+    color: cyan;
+    margin-bottom: 20px;
+}
+
+.text .typing {
+    color: cyan;
+}
+
+#icon {
+    border: 1px solid cyan;
+    border-radius: 50%;
+    padding: 9px;
+    color: #ffff;
+    box-shadow: 0 0 5px cyan;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.social {
+    margin-top: 25px;
+
+}
+
+.About {
+    height: auto;
+    padding: 30px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 120px;
+    color: cyan;
+    margin-top: 50px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    color: #bdb9b9;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.container1 .Discription {
+    display: flex;
+    align-self: center;
+    width: 700px;
+    line-height: 30px;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container1 .education {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 50, 50);
+    font-size: 14px;
+    width: 340px;
+    color: #d5d4d4;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 25px;
+    align-self: center;
+
+}
+
+.container1 .education p {
+    margin-top: 1px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    border-bottom: 1px solid #ffff;
+    padding: 10px;
+}
+
+.container1 .Discription p {
+    width: 100vw;
+    font-size: 17px;
+    color: #d3d3d3;
+    text-align: justify;
+}
+
+#Skills {
+    display: flex;
+
+}
+
+#Skills .title {
+    padding: 0px;
+    margin-top: -50px;
+}
+
+#Skills,
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    padding-bottom: 150px;
+    padding-bottom: 65px;
+    flex-wrap: wrap;
+    margin-top: -90px;
+    /* flex-direction: column; */
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    padding: 25px;
+    margin: 10px;
+    height: 13rem;
+    width: 10rem;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img {
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 15px;
+    height: 7rem;
+    width: 7rem;
+
+
+}
+
+.box2 img {
+    margin-left: 7px;
+    width: 6rem;
+}
+
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.box5 p {
+    padding: 0px;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#Project {
+    padding: 10px;
+    margin-top: -70px;
+    padding-bottom: 90px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.P_card {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 45, 45);
+    /* margin-left: 475px; */
+    height: auto;
+    border-radius: 10px;
+    width: 300px;
+    justify-self: center;
+
+}
+
+.P_card img {
+    height: 10rem;
+    padding: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.P_card .work1 {
+    color: #fff;
+}
+
+.P_card .Heading {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    font-size: 23px;
+
+}
+
+.P_card .discription {
+    padding: 20px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.P_card .discription p {
+    font-weight: 0px;
+    line-height: 20px;
+    color: #bcbcbc;
+}
+
+.P_card .demo {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.P_card .demo i {
+
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-top: 5px;
+    background-color: #999696;
+    color: #000000;
+
+
+}
+
+.P_card:hover {
+    box-shadow: 0 0 8px cyan;
+    transition: 0.6s;
+}
+
+.P_card .demo i:hover {
+    background-color: #cacaca;
+
+}
+
+.P_card .demo #github {
+    margin-left: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: px;
+    margin-top: 50px;
+}
+
+.myinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: #d3d3d3;
+    justify-content: center;
+    /* justify-self: center; */
+}
+
+.myinfo .img {
+    align-self: center;
+    margin-top: -90px;
+}
+
+.myinfo h3 {
+    margin-left: 10px;
+    color: rgb(214, 211, 211);
+    padding-right: 20px;
+
+}
+
+#name,
+#email,
+#mob {
+    display: flex;
+    font-size: 13px;
+    /* border: 1px solid #ffff; */
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #252424;
+    margin-top: 10px;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(146, 255, 255);
+}
+
+.myinfo img {
+    height: 200px;
+    display: flex;
+}
+
+.myinfo i {
+    /* border: 1px solid #d3d3d3; */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #000000;
+}
+#contact{
+    height: auto;
+}
+#contact h5 {
+    margin-top: 0px;
+}
+
+.contact {
+    gap: 10rem;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+
+}
+
+.msg {
+    margin-top: 20px;
+    height: 50vh;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    box-shadow: 2px 2px 2px rgb(146, 255, 255);
+}
+
+.msg input {
+    /* border: 1px solid #bcbcbc; */
+    background-color: #2f2e2e;
+    border-style: none;
+    border-radius: 15px;
+
+    margin-top: 10px;
+    padding: 15px;
+    width: 20rem;
+    color: #fff;
+    font-size: 15px;
+}
+
+#msg3 {
+    height: 100px;
+}
+
+.msg #Submit {
+    display: flex;
+    justify-content: left;
+    margin-left: -250px;
+}
+
+.msg #Submit #btn {
+    display: flex;
+    background-color: rgb(255, 156, 42);
+    color: #000000;
+    width: 70px;
+    height: 35px;
+    padding: 10px;
+}
+
+#footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#footer .container {
+
+    color: #bcbcbc;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer .social #icon {
+    box-shadow: none;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #999696;
+    color: #bcbcbc;
+
+}
+.copy{
+    margin-top: 50px;
+}
+
+
+@media (max-width: 865px) {
+    nav .logo {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #000;
+        flex-direction: column;
+        gap: 0px;
+        overflow: hidden;
+        transition: 0.9s;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-top: 0px;
+        font-size: 15px;
+        padding: 13px;
+
+
+    }
+
+    header {
+        padding: 10px;
+        position: sticky;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    section#homepage.homepage {
+        padding: 42px;
+    }
+
+    section #container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container1 {
+        margin-top: 20px;
+    }
+
+    .container1 #education {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #container img {
+        margin-top: 0px;
+        height: 290px;
+
+    }
+
+    #homepage .info {
+        font-size: 20px;
+        margin-top: -110px;
+    }
+
+    #icon {
+        font-size: 15px;
+    }
+
+    .About h5 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .container1 .education {
+        width: auto;
+        font-size: 10px;
+        margin-top: -35px;
+        line-height: 20px;
+    }
+
+    .container1 .education h4 {
+        margin-top: -12px;
+    }
+
+    .container1 .Discription {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container1 .Discription p {
+        font-size: 16px;
+        padding: 40px;
+        display: flex;
+        line-height: 25px;
+        margin-top: -50px;
+        text-align: left;
+        text-align: justify;
+
+
+    }
+    .msg {
+        width: 22rem;
+        margin-top: -90px;
+        background-color: #222727;
+        height: auto;
+      
+        }
+    .msg input{
+        width: 18rem;
+        
+    }
+    .msg #Submit{
+        display: flex;
+        justify-self: center;
+        padding: 0px;
+        margin-left: 6px;
+    }
+    .copy{
+     display: flex;
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 10px;
+     padding: 20px;
+    }
+ 
+}
